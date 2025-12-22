@@ -1,0 +1,68 @@
+cuda-llm-storage-pipeline/
+├─ CMakeLists.txt
+├─ cmake/
+│  ├─ Toolchains.cmake                # optional
+│  └─ SanitizeAndWarnings.cmake       # -Wall -Wextra -Werror, ASAN/UBSAN toggles
+├─ include/
+│  ├─ slp/                            # slp = storage llm pipeline
+│  │  ├─ config.h
+│  │  ├─ http_client.h                # libcurl wrapper (RAII)
+│  │  ├─ sha256.h                     # hashing for content-addressed storage
+│  │  ├─ time.h                       # monotonic timers, latency hist
+│  │  ├─ seaweed/
+│  │  │  ├─ lookup.h                  # /dir/lookup
+│  │  │  ├─ assign.h                  # /dir/assign
+│  │  │  ├─ file_upload.h             # PUT/POST file bytes to volume server
+│  │  │  ├─ file_download.h           # GET file bytes
+│  │  │  ├─ filer.h                   # filer endpoints (PUT/GET/POST)
+│  │  │  └─ types.h                   # structs for responses
+│  │  ├─ artifact/
+│  │  │  ├─ manifest.h                # artifact metadata: hash, size, created_at
+│  │  │  ├─ registry.h                # store/resolve artifacts by content hash
+│  │  │  └─ paths.h                   # canonical layout: /models, /prompts, /runs
+│  │  └─ pipeline/
+│  │     ├─ model_store.h             # push/pull GGUF, caching policy
+│  │     ├─ prompt_store.h            # push prompt batches
+│  │     ├─ result_store.h            # write inference outputs + metrics JSONL
+│  │     └─ run_id.h                  # run IDs (timestamp + hash)
+├─ src/
+│  ├─ http_client.cpp
+│  ├─ sha256.cpp
+│  ├─ seaweed/
+│  │  ├─ lookup.cpp
+│  │  ├─ assign.cpp
+│  │  ├─ file_upload.cpp
+│  │  ├─ file_download.cpp
+│  │  └─ filer.cpp
+│  ├─ artifact/
+│  │  ├─ manifest.cpp
+│  │  ├─ registry.cpp
+│  │  └─ paths.cpp
+│  └─ pipeline/
+│     ├─ model_store.cpp
+│     ├─ prompt_store.cpp
+│     ├─ result_store.cpp
+│     └─ run_id.cpp
+├─ apps/
+│  ├─ slp_put_model.cpp               # upload GGUF -> SeaweedFS, write manifest
+│  ├─ slp_get_model.cpp               # download GGUF by hash -> local cache
+│  ├─ slp_put_prompts.cpp             # upload prompt batch file (jsonl/csv)
+│  ├─ slp_run_infer.cpp               # orchestrator: pull model, call llama-server, store results
+│  ├─ slp_bench_storage.cpp           # benchmark: upload/download throughput + latency
+│  └─ slp_gc.cpp                      # (optional) mark/sweep old runs by policy
+├─ scripts/
+│  ├─ seaweed_local_up.sh             # start master/volume/filer using External2 dirs
+│  ├─ seed_demo_data.sh
+│  ├─ run_e2e_demo.sh                 # end-to-end: put model -> run -> store results
+│  └─ bench_storage.sh
+├─ configs/
+│  ├─ seaweed.env                     # master/volume/filer endpoints, timeouts
+│  └─ pipeline.yaml                   # paths, caching limits, run naming
+├─ docs/
+│  ├─ ARCHITECTURE.md                 # diagrams + design rationale
+│  ├─ PERFORMANCE.md                  # benchmark methodology + results table
+│  └─ FAILURE_MODES.md                # retries, checksums, partial uploads, etc.
+├─ .github/
+│  └─ workflows/
+│     └─ ci.yml                       # build + unit tests
+└─ README.md

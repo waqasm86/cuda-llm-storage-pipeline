@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

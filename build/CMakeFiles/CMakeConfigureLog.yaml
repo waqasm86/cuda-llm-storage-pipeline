@@ -1,0 +1,2688 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/local/ompi-ucx/bin/uname"
+      - "/home/waqasm86/.rd/bin/uname"
+      - "/home/waqasm86/.local/bin/uname"
+      - "/usr/local/openmpi/bin/uname"
+      - "/usr/local/cuda-12.8/bin/uname"
+      - "/home/waqasm86/.opencode/bin/uname"
+      - "/home/waqasm86/.config/herd-lite/bin/uname"
+      - "/home/waqasm86/.rbenv/shims/uname"
+      - "/home/waqasm86/.rbenv/bin/uname"
+      - "/home/waqasm86/.local/share/pnpm/uname"
+      - "/opt/jdk-21/bin/uname"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/uname"
+      - "/home/waqasm86/.cargo/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.8.0-90-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/local/ompi-ucx/bin/ninja-build"
+      - "/usr/local/ompi-ucx/bin/ninja"
+      - "/usr/local/ompi-ucx/bin/samu"
+      - "/home/waqasm86/.rd/bin/ninja-build"
+      - "/home/waqasm86/.rd/bin/ninja"
+      - "/home/waqasm86/.rd/bin/samu"
+      - "/home/waqasm86/.local/bin/ninja-build"
+      - "/home/waqasm86/.local/bin/ninja"
+      - "/home/waqasm86/.local/bin/samu"
+      - "/usr/local/openmpi/bin/ninja-build"
+      - "/usr/local/openmpi/bin/ninja"
+      - "/usr/local/openmpi/bin/samu"
+      - "/usr/local/cuda-12.8/bin/ninja-build"
+      - "/usr/local/cuda-12.8/bin/ninja"
+      - "/usr/local/cuda-12.8/bin/samu"
+      - "/home/waqasm86/.opencode/bin/ninja-build"
+      - "/home/waqasm86/.opencode/bin/ninja"
+      - "/home/waqasm86/.opencode/bin/samu"
+      - "/home/waqasm86/.config/herd-lite/bin/ninja-build"
+      - "/home/waqasm86/.config/herd-lite/bin/ninja"
+      - "/home/waqasm86/.config/herd-lite/bin/samu"
+      - "/home/waqasm86/.rbenv/shims/ninja-build"
+      - "/home/waqasm86/.rbenv/shims/ninja"
+      - "/home/waqasm86/.rbenv/shims/samu"
+      - "/home/waqasm86/.rbenv/bin/ninja-build"
+      - "/home/waqasm86/.rbenv/bin/ninja"
+      - "/home/waqasm86/.rbenv/bin/samu"
+      - "/home/waqasm86/.local/share/pnpm/ninja-build"
+      - "/home/waqasm86/.local/share/pnpm/ninja"
+      - "/home/waqasm86/.local/share/pnpm/samu"
+      - "/opt/jdk-21/bin/ninja-build"
+      - "/opt/jdk-21/bin/ninja"
+      - "/opt/jdk-21/bin/samu"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/ninja-build"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/ninja"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/samu"
+      - "/home/waqasm86/.cargo/bin/ninja-build"
+      - "/home/waqasm86/.cargo/bin/ninja"
+      - "/home/waqasm86/.cargo/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/local/ompi-ucx/bin/c++"
+      - "/home/waqasm86/.rd/bin/c++"
+      - "/home/waqasm86/.local/bin/c++"
+      - "/usr/local/openmpi/bin/c++"
+      - "/usr/local/cuda-12.8/bin/c++"
+      - "/home/waqasm86/.opencode/bin/c++"
+      - "/home/waqasm86/.config/herd-lite/bin/c++"
+      - "/home/waqasm86/.rbenv/shims/c++"
+      - "/home/waqasm86/.rbenv/bin/c++"
+      - "/home/waqasm86/.local/share/pnpm/c++"
+      - "/opt/jdk-21/bin/c++"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/c++"
+      - "/home/waqasm86/.cargo/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/usr/sbin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake-4.2/Modules/"
+    found: "/usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/usr/local/ompi-ucx/bin/dlltool"
+      - "/home/waqasm86/.rd/bin/dlltool"
+      - "/home/waqasm86/.local/bin/dlltool"
+      - "/usr/local/openmpi/bin/dlltool"
+      - "/usr/local/cuda-12.8/bin/dlltool"
+      - "/home/waqasm86/.opencode/bin/dlltool"
+      - "/home/waqasm86/.config/herd-lite/bin/dlltool"
+      - "/home/waqasm86/.rbenv/shims/dlltool"
+      - "/home/waqasm86/.rbenv/bin/dlltool"
+      - "/home/waqasm86/.local/share/pnpm/dlltool"
+      - "/opt/jdk-21/bin/dlltool"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/dlltool"
+      - "/home/waqasm86/.cargo/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/usr/local/go/bin/dlltool"
+      - "/home/waqasm86/go/bin/dlltool"
+      - "/opt/mssql-tools18/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/usr/local/ompi-ucx/bin/tapi"
+      - "/home/waqasm86/.rd/bin/tapi"
+      - "/home/waqasm86/.local/bin/tapi"
+      - "/usr/local/openmpi/bin/tapi"
+      - "/usr/local/cuda-12.8/bin/tapi"
+      - "/home/waqasm86/.opencode/bin/tapi"
+      - "/home/waqasm86/.config/herd-lite/bin/tapi"
+      - "/home/waqasm86/.rbenv/shims/tapi"
+      - "/home/waqasm86/.rbenv/bin/tapi"
+      - "/home/waqasm86/.local/share/pnpm/tapi"
+      - "/opt/jdk-21/bin/tapi"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/tapi"
+      - "/home/waqasm86/.cargo/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/home/waqasm86/go/bin/tapi"
+      - "/opt/mssql-tools18/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-11.4"
+      - "gcc-ar-11"
+      - "gcc-ar11"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-11.4"
+      - "/usr/local/ompi-ucx/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.rd/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.local/bin/gcc-ar-11.4"
+      - "/usr/local/openmpi/bin/gcc-ar-11.4"
+      - "/usr/local/cuda-12.8/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.opencode/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.config/herd-lite/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.rbenv/shims/gcc-ar-11.4"
+      - "/home/waqasm86/.rbenv/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.local/share/pnpm/gcc-ar-11.4"
+      - "/opt/jdk-21/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/gcc-ar-11.4"
+      - "/home/waqasm86/.cargo/bin/gcc-ar-11.4"
+      - "/usr/local/sbin/gcc-ar-11.4"
+      - "/usr/local/bin/gcc-ar-11.4"
+      - "/usr/sbin/gcc-ar-11.4"
+      - "/sbin/gcc-ar-11.4"
+      - "/bin/gcc-ar-11.4"
+      - "/usr/games/gcc-ar-11.4"
+      - "/usr/local/games/gcc-ar-11.4"
+      - "/snap/bin/gcc-ar-11.4"
+      - "/usr/local/go/bin/gcc-ar-11.4"
+      - "/home/waqasm86/go/bin/gcc-ar-11.4"
+      - "/opt/mssql-tools18/bin/gcc-ar-11.4"
+    found: "/usr/bin/gcc-ar-11"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-11.4"
+      - "gcc-ranlib-11"
+      - "gcc-ranlib11"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-11.4"
+      - "/usr/local/ompi-ucx/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.rd/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.local/bin/gcc-ranlib-11.4"
+      - "/usr/local/openmpi/bin/gcc-ranlib-11.4"
+      - "/usr/local/cuda-12.8/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.opencode/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.config/herd-lite/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.rbenv/shims/gcc-ranlib-11.4"
+      - "/home/waqasm86/.rbenv/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.local/share/pnpm/gcc-ranlib-11.4"
+      - "/opt/jdk-21/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/.cargo/bin/gcc-ranlib-11.4"
+      - "/usr/local/sbin/gcc-ranlib-11.4"
+      - "/usr/local/bin/gcc-ranlib-11.4"
+      - "/usr/sbin/gcc-ranlib-11.4"
+      - "/sbin/gcc-ranlib-11.4"
+      - "/bin/gcc-ranlib-11.4"
+      - "/usr/games/gcc-ranlib-11.4"
+      - "/usr/local/games/gcc-ranlib-11.4"
+      - "/snap/bin/gcc-ranlib-11.4"
+      - "/usr/local/go/bin/gcc-ranlib-11.4"
+      - "/home/waqasm86/go/bin/gcc-ranlib-11.4"
+      - "/opt/mssql-tools18/bin/gcc-ranlib-11.4"
+    found: "/usr/bin/gcc-ranlib-11"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/CMakeScratch/TryCompile-F44veN"
+      binary: "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/CMakeScratch/TryCompile-F44veN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/CMakeScratch/TryCompile-F44veN'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_84585
+        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_84585.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccapArXa.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/'
+         as -v --64 -o CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccapArXa.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84585   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84585' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84585.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoZUMDH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_84585 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoZUMDH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_84585 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84585' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84585.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/CMakeScratch/TryCompile-F44veN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_84585]
+        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_84585.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccapArXa.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccapArXa.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_84585   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84585' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84585.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoZUMDH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_84585 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoZUMDH.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_84585] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoZUMDH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_84585 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_84585.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:174 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    name: "CURL"
+    configs:
+      -
+        filename: "CURLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "curl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "CURL"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/pkgRedirects/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rd/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rd/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.local/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.local/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/openmpi/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/openmpi/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cuda-12.8/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/cuda-12.8/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.opencode/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.opencode/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.config/herd-lite/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.config/herd-lite/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rbenv/shims/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rbenv/shims/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rbenv/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.rbenv/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.local/share/pnpm/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.local/share/pnpm/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/jdk-21/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/jdk-21/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.nvm/versions/node/v22.21.1/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.nvm/versions/node/v22.21.1/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.cargo/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/.cargo/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/go/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/go/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/waqasm86/go/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/mssql-tools18/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/mssql-tools18/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:189 (find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/usr/local/ompi-ucx/bin/pkg-config"
+      - "/usr/local/ompi-ucx/bin/pkgconf"
+      - "/home/waqasm86/.rd/bin/pkg-config"
+      - "/home/waqasm86/.rd/bin/pkgconf"
+      - "/home/waqasm86/.local/bin/pkg-config"
+      - "/home/waqasm86/.local/bin/pkgconf"
+      - "/usr/local/openmpi/bin/pkg-config"
+      - "/usr/local/openmpi/bin/pkgconf"
+      - "/usr/local/cuda-12.8/bin/pkg-config"
+      - "/usr/local/cuda-12.8/bin/pkgconf"
+      - "/home/waqasm86/.opencode/bin/pkg-config"
+      - "/home/waqasm86/.opencode/bin/pkgconf"
+      - "/home/waqasm86/.config/herd-lite/bin/pkg-config"
+      - "/home/waqasm86/.config/herd-lite/bin/pkgconf"
+      - "/home/waqasm86/.rbenv/shims/pkg-config"
+      - "/home/waqasm86/.rbenv/shims/pkgconf"
+      - "/home/waqasm86/.rbenv/bin/pkg-config"
+      - "/home/waqasm86/.rbenv/bin/pkgconf"
+      - "/home/waqasm86/.local/share/pnpm/pkg-config"
+      - "/home/waqasm86/.local/share/pnpm/pkgconf"
+      - "/opt/jdk-21/bin/pkg-config"
+      - "/opt/jdk-21/bin/pkgconf"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/pkg-config"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/pkgconf"
+      - "/home/waqasm86/.cargo/bin/pkg-config"
+      - "/home/waqasm86/.cargo/bin/pkgconf"
+      - "/usr/local/sbin/pkg-config"
+      - "/usr/local/sbin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+      - "/usr/sbin/pkg-config"
+      - "/usr/sbin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/local/share/cmake-4.2/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/local/share/cmake-4.2/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/local/share/cmake-4.2/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:191 (pkg_check_modules)"
+      - "CMakeLists.txt:25 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_CURL_curl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+    found: "/usr/lib/x86_64-linux-gnu/libcurl.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:201 (find_path)"
+      - "CMakeLists.txt:25 (find_package)"
+    mode: "path"
+    variable: "CURL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl/curl.h"
+    candidate_directories:
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+    found: "/usr/include/x86_64-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:208 (find_library)"
+      - "CMakeLists.txt:25 (find_package)"
+    mode: "library"
+    variable: "CURL_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curl"
+      - "curllib"
+      - "libcurl_imp"
+      - "curllib_static"
+      - "libcurl"
+      - "libcurl_a"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: "/usr/lib/x86_64-linux-gnu/libcurl.so"
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.2/Modules/FindCURL.cmake:223 (find_library)"
+      - "CMakeLists.txt:25 (find_package)"
+    mode: "library"
+    variable: "CURL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libcurl-d_imp"
+      - "libcurl-d"
+    candidate_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/usr/local/ompi-ucx/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.rd/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/home/waqasm86/.local/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/openmpi/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/usr/local/cuda-12.8/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.opencode/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.config/herd-lite/bin/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/shims/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.rbenv/bin/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/home/waqasm86/.local/share/pnpm/"
+      - "/opt/jdk-21/bin/"
+      - "/opt/jdk-21/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/home/waqasm86/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/snap/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/home/waqasm86/go/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/opt/mssql-tools18/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/lib/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/openmpi/bin"
+        - "/usr/local/cuda-12.8/bin"
+        - "/home/waqasm86/.opencode/bin"
+        - "/home/waqasm86/.config/herd-lite/bin"
+        - "/home/waqasm86/.rbenv/shims"
+        - "/home/waqasm86/.rbenv/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.local/share/pnpm"
+        - "/opt/jdk-21/bin"
+        - "/home/waqasm86/.nvm/versions/node/v22.21.1/bin"
+        - "/usr/local/ompi-ucx/bin"
+        - "/home/waqasm86/.rd/bin"
+        - "/home/waqasm86/.cargo/bin"
+        - "/home/waqasm86/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/go/bin"
+        - "/home/waqasm86/go/bin"
+        - "/opt/mssql-tools18/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

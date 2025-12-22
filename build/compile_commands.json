@@ -1,0 +1,128 @@
+[
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/http_client.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/http_client.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/http_client.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/http_client.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/sha256.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/sha256.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/sha256.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/sha256.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/seaweed/lookup.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/lookup.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/lookup.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/seaweed/lookup.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/seaweed/assign.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/assign.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/assign.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/seaweed/assign.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/seaweed/file_upload.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/file_upload.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/file_upload.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/seaweed/file_upload.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/seaweed/file_download.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/file_download.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/file_download.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/seaweed/file_download.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/seaweed/filer.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/filer.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/seaweed/filer.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/seaweed/filer.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/artifact/manifest.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/manifest.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/manifest.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/artifact/manifest.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/artifact/registry.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/registry.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/registry.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/artifact/registry.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/artifact/paths.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/paths.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/artifact/paths.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/artifact/paths.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/pipeline/model_store.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/model_store.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/model_store.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/pipeline/model_store.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/pipeline/prompt_store.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/prompt_store.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/prompt_store.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/pipeline/prompt_store.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/pipeline/result_store.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/result_store.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/result_store.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/pipeline/result_store.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_core.dir/src/pipeline/run_id.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/run_id.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/src/pipeline/run_id.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_core.dir/src/pipeline/run_id.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_put_model.dir/apps/slp_put_model.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_put_model.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_put_model.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_put_model.dir/apps/slp_put_model.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_get_model.dir/apps/slp_get_model.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_get_model.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_get_model.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_get_model.dir/apps/slp_get_model.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_put_prompts.dir/apps/slp_put_prompts.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_put_prompts.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_put_prompts.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_put_prompts.dir/apps/slp_put_prompts.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_run_infer.dir/apps/slp_run_infer.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_run_infer.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_run_infer.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_run_infer.dir/apps/slp_run_infer.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -I/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/include -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_bench_storage.dir/apps/slp_bench_storage.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_bench_storage.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_bench_storage.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_bench_storage.dir/apps/slp_bench_storage.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_llama_client.dir/apps/slp_llama_client.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_llama_client.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_llama_client.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_llama_client.dir/apps/slp_llama_client.cpp.o"
+},
+{
+  "directory": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build",
+  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -o CMakeFiles/slp_llama_batch.dir/apps/slp_llama_batch.cpp.o -c /media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_llama_batch.cpp",
+  "file": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/apps/slp_llama_batch.cpp",
+  "output": "/media/waqasm86/External1/Project-CPP/Project-Nvidia/cuda-llm-storage-pipeline/build/CMakeFiles/slp_llama_batch.dir/apps/slp_llama_batch.cpp.o"
+}
+]
