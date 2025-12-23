@@ -324,7 +324,6 @@ The cuda-llm-storage-pipeline project successfully demonstrates:
 
 ---
 
-**Test conducted by**: AI Assistant (Claude Sonnet 4.5)
-**User**: Waqas M.
+**Test conducted by**: Waqas M.
 **Purpose**: NVIDIA Zurich AI Networking Acceleration Team portfolio
 **Date**: December 23, 2025
